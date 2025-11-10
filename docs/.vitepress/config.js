@@ -3,7 +3,7 @@ export default {
   title: 'SkLibrary',
   ignoreDeadLinks: true,
   head: [
-    ['link', { rel: 'icon', href: `assets/logo.png` }]
+    ['link', { rel: 'icon', href: `https://raw.githubusercontent.com/SkriptLibrary/SkWebsite/e68cb2abc761caa52a9a9b35202e84019dde04c1/docs/assets/logo.png` }]
   ],
   description: 'Documentation for SkLibrary',
   themeConfig: {
