@@ -6,7 +6,7 @@ hero:
   text: A simple and powerful Skript library.
   tagline: Download prefabricated Skripts from our team or the community! <b>The Skript Library</b>.
   image:
-    src: assets/logo.png
+    src: 'https://raw.githubusercontent.com/SkriptLibrary/SkWebsite/e68cb2abc761caa52a9a9b35202e84019dde04c1/docs/assets/logo.png'
     alt: SkLibrary logo
   actions:
     - theme: brand
