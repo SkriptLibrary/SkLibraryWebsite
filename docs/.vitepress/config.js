@@ -1,9 +1,13 @@
 export default {
+  base: '/SkWebsite/',
   title: 'SkLibrary',
-  head: [['link', { rel: 'icon', href: '/assets/logo.png' }]],
+  ignoreDeadLinks: true,
+  head: [
+    ['link', { rel: 'icon', href: `assets/logo.png` }]
+  ],
   description: 'Documentation for SkLibrary',
   themeConfig: {
-    logo: '/assets/logo.png',
+    logo: `assets/logo.png`,
     nav: [
       { text: 'Homepage', link: '/' },
       { text: 'Guide', link: '/pages/introduction/' },
@@ -34,5 +38,8 @@ export default {
       message: 'Released under the <a href="https://github.com/SkriptLibrary/sklibrary/blob/main/LICENSE">MIT License</a>.',
       copyright: '© 2025 SkLibrary | A <b>free & open-source</b> product'
     }
+  },
+  enhanceApp({ app }) {
+    app.component('DownloadApp', DownloadApp)
   }
 }
