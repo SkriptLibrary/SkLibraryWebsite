@@ -9,7 +9,7 @@ hero:
   image: /assets/logo.png
   actions:
     - theme: brand-button
-      text: Los legen
+      text: Loslegen
       link: /de-DE/docs/introduction
     - theme: alt
       text: GitHub

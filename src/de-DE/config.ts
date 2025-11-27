@@ -30,12 +30,12 @@ function translations() {
   return {
     notFound: {
       title: 'SEITE NICHT GEFUNDEN',
-      quote: '',
+      quote: 'Huuuch. Wir konnten leider nichts finden.',
       linkLabel: 'Nach hause',
       linkText: 'Nach hause'
     },
 
-    sidebarMenuLabel: 'Menu',
+    sidebarMenuLabel: 'Menü',
     outline: {
       label: 'Auf dieser Seite'
     },

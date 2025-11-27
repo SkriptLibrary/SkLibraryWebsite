@@ -18,3 +18,36 @@ hero:
       text: Discord
       link: https://dc.sklibrary.de
 ---
+<br> <br> <br>
+# <center>Team Members</center>
+<VPTeamMembers :members />
+
+
+<script setup>
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamMembers
+} from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: '/assets/pfp/max54nj.png',
+    name: 'Max54nj',
+    title: 'Head Development | Verified Skript Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/max54nj' },
+      { icon: 'bluesky', link: 'https://bsky.app/profile/max54nj.de' },
+      { icon: 'rss', link: 'https://max54nj.de'}
+    ]
+  },
+  {
+    avatar: '/assets/pfp/norivane.png',
+    name: 'norivane',
+    title: 'Head Developer & Designer | Verified Skript Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/norivane' }
+    ]
+  },
+]
+</script>
